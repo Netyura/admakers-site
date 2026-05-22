@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="10" width="46" height="46" rx="14" fill="url(#mark)"/>
+  <text x="31" y="38" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="-1.2">AD</text>
+  <circle cx="52" cy="10" r="8" fill="#FFFFFF"/>
+  <circle cx="52" cy="10" r="5.6" fill="#60A5FA"/>
+  <circle cx="52" cy="10" r="2.2" fill="#FFFFFF"/>
+  <defs>
+    <linearGradient id="mark" x1="10" y1="12" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+</svg>
