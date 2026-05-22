@@ -110,18 +110,6 @@ h1, h2, h3, h4 {
     box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
 }
 
-.btn-viber {
-    background-color: #7360F2;
-    color: white;
-    box-shadow: 0 4px 14px rgba(115, 96, 242, 0.28);
-}
-
-.btn-viber:hover {
-    background-color: #5F4BD8;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(115, 96, 242, 0.38);
-}
-
 .btn-outline {
     background-color: transparent;
     border: 1.5px solid var(--color-border);
