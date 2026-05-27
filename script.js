@@ -18,6 +18,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-in');
     fadeElements.forEach(el => observer.observe(el));
 
+    // Track Telegram clicks as Meta Pixel leads.
+    const telegramLeadLinks = document.querySelectorAll('[data-lead-event="telegram"]');
+    telegramLeadLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead', {
+                    content_name: 'Telegram click',
+                    content_category: 'Contact',
+                    contact_channel: 'telegram'
+                });
+            }
+        });
+    });
+
     // 2. Header scroll effect
     const header = document.querySelector('.header');
     window.addEventListener('scroll', () => {
